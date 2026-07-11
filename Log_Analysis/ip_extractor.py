@@ -8,7 +8,7 @@ input_file=args.file
 
 
 
-if args.output:
+if args.output :
     output_file=args.output
 else:
     base_name=os.path.basename(input_file)
